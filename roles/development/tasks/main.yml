@@ -1,0 +1,3 @@
+---
+- name: ensure dotfiles are cloned
+  git: repo=https://github.com/cjwfuller/dotfiles.git clone=yes dest=/Users/cjwfuller/Code/dotfiles.git

@@ -1,0 +1,14 @@
+---
+- name: apply common configuration to localhost
+  hosts: localhost
+  remote_user: root
+
+  roles:
+    - common
+
+- name: deploy dotfiles to localhost
+  hosts: localhost
+  remote_user: root
+
+  roles:
+    - development
