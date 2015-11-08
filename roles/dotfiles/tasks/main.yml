@@ -1,0 +1,10 @@
+---
+- name: dotfiles | ensure dotfiles are cloned
+  git: repo=https://github.com/cjwfuller/dotfiles.git clone=yes dest=~/Code/dotfiles.git
+
+- file: src=~/Code/dotfiles.git/.vimrc dest=~/.vimrc state=link
+
+- file: src=~/Code/dotfiles.git/.vim dest=~/.vim state=link
+
+- name: dotfiles | ensure oh-my-zsh is cloned
+  git: repo=https://github.com/robbyrussell/oh-my-zsh.git clone=yes dest=~/Code/oh-my-zsh.git
