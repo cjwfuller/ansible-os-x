@@ -1,0 +1,27 @@
+---
+base_osx:
+  main:
+    taps:
+      - homebrew/dupes
+      - phinze/cask
+
+    packages:
+      - ansible
+      - brew-cask
+      - cloc
+      - git
+      - macvim
+      - node
+      - ruby
+      - vim
+      - wget
+      - zsh
+
+    casks:
+      - iterm2
+      - virtualbox
+
+    python_packages:
+      requirements:
+        - Jinja2
+        - flake8
