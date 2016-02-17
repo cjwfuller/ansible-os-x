@@ -1,6 +1,6 @@
 # dotfiles
 
-Installation
+## Installation
 
 You'll need pip: `sudo easy_install pip`
 
