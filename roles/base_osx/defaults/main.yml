@@ -10,7 +10,6 @@ base_osx:
       - brew-cask
       - cloc
       - git
-      - macvim
       - node
       - ruby
       - vim
