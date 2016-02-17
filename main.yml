@@ -10,3 +10,9 @@
 
   roles:
     - dotfiles
+
+- name: deploy shell to localhost
+  hosts: localhost
+
+  roles:
+    - shell
