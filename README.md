@@ -1,4 +1,4 @@
-# dotfiles
+# ansible-os-x
 
 ## Installation
 
