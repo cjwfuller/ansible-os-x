@@ -2,7 +2,7 @@
 
 ## Installation
 
-### Before running the playbook:
+Before running the playbook:
 
 Install command line tools: `xcode-select --install`
 
