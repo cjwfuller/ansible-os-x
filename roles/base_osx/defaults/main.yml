@@ -20,6 +20,7 @@ base_osx:
       - virtualbox
       - vagrant
       - evernote
+      - google-chrome
 
     python_packages:
       requirements:
