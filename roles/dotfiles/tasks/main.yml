@@ -8,3 +8,5 @@
 
 - name: dotfiles | ensure oh-my-zsh is cloned
   git: repo=https://github.com/robbyrussell/oh-my-zsh.git clone=yes dest=~/Code/oh-my-zsh.git
+
+- file: src=~/Code/dotfiles.git/.zshrc dest=~/.zshrc state=link
