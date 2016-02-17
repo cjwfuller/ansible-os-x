@@ -1,3 +1,12 @@
 ---
-- name: install meteor
-  command: curl https://install.meteor.com/ | sh
+- name: Download meteor install script
+  get_url:
+    url=https://install.meteor.com
+    dest=/tmp/meteor.sh
+    mode=0440
+
+- name: Run meteor install script
+  command: /bin/sh /tmp/meteor.sh
+
+- name: Cleanup meteor install script
+  file: path=/tmp/meteor.sh state=absent
