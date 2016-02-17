@@ -1,12 +1,12 @@
 ---
-- name: brew update 1
+- name: brew update
   homebrew: update_homebrew=yes
 
 - name: brew tap base_osx_main.taps
   homebrew_tap: name={{ item }} state=present
   with_items: base_osx.main.taps
 
-- name: brew update 2
+- name: brew update and upgrade
   homebrew: update_homebrew=yes upgrade_all=yes
 
 - name: brew install base_osx.main.packages
