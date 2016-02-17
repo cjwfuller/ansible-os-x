@@ -1,18 +1,20 @@
 ---
 - name: deploy base OS X packages
   hosts: localhost
-
   roles:
     - base_osx
 
 - name: deploy dotfiles to localhost
   hosts: localhost
-
   roles:
     - dotfiles
 
 - name: deploy shell to localhost
   hosts: localhost
-
   roles:
     - shell
+
+- name: deploy programming frameworks to localhost
+  hosts: localhost
+  roles:
+    - frameworks
