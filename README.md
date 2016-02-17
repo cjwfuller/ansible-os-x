@@ -2,12 +2,16 @@
 
 ## Installation
 
-You'll need pip: `sudo easy_install pip`
+### Before running the playbook:
 
-and Ansible: `sudo pip install ansible`
+Install command line tools: `xcode-select --install`
 
-and command line tools: `xcode-select --install`
+Install brew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 Clone this repo: `git clone git@github.com:cjwfuller/ansible-os-x.git`
 
+`cd ansible-os-x`
+
+
 Run the playbook: `ansible-playbook site.yml -i inventory --ask-sudo-pass`
+
