@@ -18,6 +18,7 @@ base_osx:
     casks:
       - iterm2
       - virtualbox
+      - vagrant
 
     python_packages:
       requirements:
