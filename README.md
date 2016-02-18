@@ -13,5 +13,5 @@ Clone this repo: `git clone git@github.com:cjwfuller/ansible-os-x.git`
 `cd ansible-os-x`
 
 
-Run the playbook: `ansible-playbook main.yml -i inventory --ask-sudo-pass`
+Run the playbook: `ansible-playbook main.yml -i hosts --ask-sudo-pass`
 
