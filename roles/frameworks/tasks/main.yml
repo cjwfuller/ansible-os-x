@@ -10,3 +10,9 @@
 
 - name: Cleanup meteor install script
   file: path=/tmp/meteor.sh state=absent
+
+- name: Install iOS SDK for meteor
+  command: meteor install-sdk ios
+
+- name: Install Android SDK for meteor
+  command: meteor install-sdk android
