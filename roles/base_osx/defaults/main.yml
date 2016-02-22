@@ -16,10 +16,10 @@ base_osx:
 
     casks:
       - iterm2
+      - google-chrome
       - virtualbox
       - vagrant
       - evernote
-      - google-chrome
 
     python_packages:
       requirements:
