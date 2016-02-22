@@ -10,7 +10,7 @@ Install brew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/
 
 Install ansible: `brew install ansible`
 
-Clone this repo: `git clone https://github.com/cjwfuller/ansible-os-x.git
+Clone this repo: `git clone https://github.com/cjwfuller/ansible-os-x.git`
 
 `cd ansible-os-x`
 
