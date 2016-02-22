@@ -13,3 +13,6 @@
 
 - name: dotfiles | link .zshrc
   file: src=~/Code/dotfiles.git/.zshrc dest=~/.zshrc state=link
+
+- name: dotfiles | link .gitconfig
+  file: src=~/Code/dotfiles.git/.gitconfig dest=~/.gitconfig state=link
