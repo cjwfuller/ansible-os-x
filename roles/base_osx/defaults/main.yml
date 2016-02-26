@@ -21,6 +21,8 @@ base_osx:
       - vagrant
       - evernote
       - utorrent
+      - skype
+      - vlc
 
     python_packages:
       requirements:
