@@ -20,6 +20,7 @@ base_osx:
       - virtualbox
       - vagrant
       - evernote
+      - utorrent
 
     python_packages:
       requirements:
