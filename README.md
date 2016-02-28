@@ -25,3 +25,34 @@ Clone this repo:
 Run playbook:
 
 * `ansible-playbook main.yml -i hosts --ask-sudo-pass`
+
+## Apps
+
+You can modify the OS X apps that are installed by changing the cask list in `roles/base_osx/defaults/main.yml`:
+
+```
+casks:
+  ...
+  - skype
+  - slack
+  - vlc
+  - flux
+  ...
+```
+
+## Packages
+
+You can modify other packages e.g. `zsh` that are installed by changing the package list in `roles/base_osx/defaults/main.yml`:
+
+```
+packages:
+  ...
+  - node
+  - wget
+  - zsh
+  ...
+```
+
+## Applying Changes
+
+To apply changes to your Ansible configuration, re-run Ansible: `ansible-playbook main.yml -i hosts --ask-sudo-pass`
