@@ -22,6 +22,7 @@ base_osx:
       - evernote
       - utorrent
       - skype
+      - slack
       - vlc
 
     python_packages:
