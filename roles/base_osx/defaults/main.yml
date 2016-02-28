@@ -25,6 +25,7 @@ base_osx:
       - slack
       - vlc
       - flux
+      - mou
 
     python_packages:
       requirements:
