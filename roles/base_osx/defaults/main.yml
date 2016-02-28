@@ -26,6 +26,7 @@ base_osx:
       - vlc
       - flux
       - mou
+      - dropbox
 
     python_packages:
       requirements:
