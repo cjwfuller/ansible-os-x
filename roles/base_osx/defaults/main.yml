@@ -24,6 +24,7 @@ base_osx:
       - skype
       - slack
       - vlc
+      - flux
 
     python_packages:
       requirements:
