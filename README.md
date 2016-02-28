@@ -1,19 +1,27 @@
 # ansible-os-x
 
+Provision a local OS X dev machine using Ansible
+
 ## Installation
 
-Before running the playbook:
+Ensure XCode command-line tools are installed:
 
-Install command line tools: `xcode-select --install`
+1. `xcode-select --install`
 
-Install brew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+Install brew package manager:
 
-Install ansible: `brew install ansible`
+2. `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-Clone this repo: `git clone https://github.com/cjwfuller/ansible-os-x.git`
+Install Ansible:
 
-`cd ansible-os-x`
+3. `brew install ansible`
 
+Clone this repo:
 
-Run the playbook: `ansible-playbook main.yml -i hosts --ask-sudo-pass`
+4. `git clone https://github.com/cjwfuller/ansible-os-x.git`
 
+5. `cd ansible-os-x`
+
+Run playbook:
+
+6. `ansible-playbook main.yml -i hosts --ask-sudo-pass`
