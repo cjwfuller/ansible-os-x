@@ -27,6 +27,7 @@ base_osx:
       - flux
       - mou
       - dropbox
+      - java
 
     python_packages:
       requirements:
