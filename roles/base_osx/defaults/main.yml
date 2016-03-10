@@ -28,6 +28,7 @@ base_osx:
       - mou
       - dropbox
       - java
+      - jumpcat
 
     python_packages:
       requirements:
