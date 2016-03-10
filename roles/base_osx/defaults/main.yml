@@ -13,6 +13,7 @@ base_osx:
       - node
       - wget
       - zsh
+      - rabbitmq
 
     casks:
       - iterm2
