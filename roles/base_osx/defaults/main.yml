@@ -31,6 +31,7 @@ base_osx:
       - dropbox
       - java
       - jumpcat
+      - hipchat
 
     python_packages:
       requirements:
