@@ -19,6 +19,7 @@ base_osx:
     casks:
       - iterm2
       - google-chrome
+      - firefox
       - virtualbox
       - vagrant
       - evernote
