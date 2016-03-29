@@ -1,0 +1,12 @@
+---
+- name: blog | Install jekyll
+  command: sudo gem install jekyll
+
+- name: blog | Install bundler
+  command: sudo gem install bundler
+
+- name: blog | Install dependancies
+  command: bundle install
+
+- name: blog | Clone blog repo
+  git: repo=https://github.com/cjwfuller/cjwfuller.github.io.git clone=yes dest=~/code/cjwfuller.github.io
