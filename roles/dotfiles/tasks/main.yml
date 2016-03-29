@@ -1,18 +1,18 @@
 ---
 - name: dotfiles | ensure dotfiles are cloned
-  git: repo=https://github.com/cjwfuller/dotfiles.git clone=yes dest=~/Code/dotfiles.git
+  git: repo=https://github.com/cjwfuller/dotfiles.git clone=yes dest=~/code/dotfiles.git
 
 - name: dotfiles | link .vimrc
   file: src=~/Code/dotfiles.git/.vimrc dest=~/.vimrc state=link
 
 - name: dotfiles | link .vim
-  file: src=~/Code/dotfiles.git/.vim dest=~/.vim state=link
+  file: src=~/code/dotfiles.git/.vim dest=~/.vim state=link
 
 - name: dotfiles | ensure oh-my-zsh is cloned
-  git: repo=https://github.com/robbyrussell/oh-my-zsh.git clone=yes dest=~/Code/oh-my-zsh.git
+  git: repo=https://github.com/robbyrussell/oh-my-zsh.git clone=yes dest=~/code/oh-my-zsh.git
 
 - name: dotfiles | link .zshrc
-  file: src=~/Code/dotfiles.git/.zshrc dest=~/.zshrc state=link
+  file: src=~/code/dotfiles.git/.zshrc dest=~/.zshrc state=link
 
 - name: dotfiles | link .gitconfig
-  file: src=~/Code/dotfiles.git/.gitconfig dest=~/.gitconfig state=link
+  file: src=~/code/dotfiles.git/.gitconfig dest=~/.gitconfig state=link
