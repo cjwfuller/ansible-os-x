@@ -7,7 +7,6 @@ base_osx:
 
     packages:
       - ansible
-      - brew-cask
       - cloc
       - git
       - node
