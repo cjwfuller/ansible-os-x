@@ -32,6 +32,7 @@ base_osx:
       - java
       - hipchat
       - spotify
+      - balsamiq-mockups
 
     python_packages:
       requirements:
