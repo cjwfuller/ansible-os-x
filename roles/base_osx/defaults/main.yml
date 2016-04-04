@@ -30,7 +30,6 @@ base_osx:
       - mou
       - dropbox
       - java
-      - jumpcat
       - hipchat
       - spotify
 
