@@ -35,6 +35,7 @@ base_osx:
       - balsamiq-mockups
       - docker
       - bitcoin-core
+      - libreoffice
 
     python_packages:
       requirements:
