@@ -34,6 +34,7 @@ base_osx:
       - spotify
       - balsamiq-mockups
       - docker
+      - bitcoin-core
 
     python_packages:
       requirements:
