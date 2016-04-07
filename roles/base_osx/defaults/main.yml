@@ -36,6 +36,7 @@ base_osx:
       - docker
       - bitcoin-core
       - libreoffice
+      - tmux
 
     python_packages:
       requirements:
