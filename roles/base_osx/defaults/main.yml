@@ -18,6 +18,7 @@ base_osx:
     casks:
       - iterm2
       - google-chrome
+      - google-drive
       - firefox
       - virtualbox
       - vagrant
