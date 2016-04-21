@@ -14,6 +14,7 @@ base_osx:
       - zsh
       - rabbitmq
       - awscli
+      - reattach-to-user-namespace
 
     casks:
       - iterm2
