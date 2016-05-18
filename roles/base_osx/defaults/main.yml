@@ -16,6 +16,7 @@ base_osx:
       - awscli
       - reattach-to-user-namespace
       - cmake
+      - ngrok
 
     casks:
       - iterm2
