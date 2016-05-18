@@ -41,6 +41,7 @@ base_osx:
       - bitcoin-core
       - libreoffice
       - tmux
+      - cybderduck
 
     python_packages:
       requirements:
