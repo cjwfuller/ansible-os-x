@@ -17,6 +17,7 @@ base_osx:
       - reattach-to-user-namespace
       - cmake
       - ngrok
+      - trash
 
     casks:
       - iterm2
