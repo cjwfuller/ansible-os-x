@@ -18,6 +18,7 @@ base_osx:
       - cmake
       - ngrok
       - trash
+      - htop
 
     casks:
       - iterm2
