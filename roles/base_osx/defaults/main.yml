@@ -9,6 +9,7 @@ base_osx:
       - ansible
       - cloc
       - git
+      - git-extras
       - node
       - wget
       - zsh
