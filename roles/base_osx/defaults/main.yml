@@ -13,7 +13,6 @@ base_osx:
       - node
       - wget
       - zsh
-      - rabbitmq
       - awscli
       - reattach-to-user-namespace
       - cmake
