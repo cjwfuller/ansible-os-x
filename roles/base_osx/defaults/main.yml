@@ -39,7 +39,6 @@ base_osx:
       - hipchat
       - spotify
       - docker
-      - bitcoin-core
       - libreoffice
       - tmux
       - cybderduck
