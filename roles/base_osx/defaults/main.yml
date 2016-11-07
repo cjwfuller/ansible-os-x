@@ -25,7 +25,6 @@ base_osx:
       - google-chrome
       - google-drive
       - google-photos-backup
-      - firefox
       - virtualbox
       - vagrant
       - evernote
