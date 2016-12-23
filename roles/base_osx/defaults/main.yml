@@ -41,6 +41,7 @@ base_osx:
       - docker
       - libreoffice
       - tmux
+      - sequel-pro
 
     python_packages:
       requirements:
