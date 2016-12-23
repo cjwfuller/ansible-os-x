@@ -41,7 +41,6 @@ base_osx:
       - docker
       - libreoffice
       - tmux
-      - cybderduck
 
     python_packages:
       requirements:
