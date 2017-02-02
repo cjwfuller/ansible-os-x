@@ -6,8 +6,8 @@
   homebrew_tap: name={{ item }} state=present
   with_items: base_osx.main.taps
 
-- name: brew update and upgrade
-  homebrew: update_homebrew=yes upgrade_all=yes
+#- name: brew update and upgrade
+  #homebrew: update_homebrew=yes upgrade_all=yes
 
 - name: brew install base_osx.main.packages
   homebrew: name={{ item }} state=upgraded

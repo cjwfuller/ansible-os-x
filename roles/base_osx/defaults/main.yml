@@ -16,8 +16,6 @@ base_osx:
       - awscli
       - reattach-to-user-namespace
       - cmake
-      - ngrok
-      - trash
       - htop
 
     casks:
@@ -35,13 +33,10 @@ base_osx:
       - flux
       - mou
       - dropbox
-      - java
-      - hipchat
       - spotify
       - docker
-      - libreoffice
       - tmux
-      - sequel-pro
+      - caffeine
 
     python_packages:
       requirements:
